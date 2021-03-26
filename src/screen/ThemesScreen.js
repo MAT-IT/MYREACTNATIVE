@@ -1,13 +1,13 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import Button from '../components/Button'
-export const ListScreen= ({navigation}) => {
+export const ThemesScreen = ({navigation}) => {
     return (
         <View style={styles.container}>
-            <Text>ListScreen</Text>
+            <Text>ThemesScreen.</Text>
             <Button 
-            onPress={()=>navigation.navigate('Details')} 
-            buttonText={"Go to Details"}
+            onPress={()=>navigation.navigate('List')} 
+            buttonText={"Lets Begin!"}
             />
         </View>
     )
