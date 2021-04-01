@@ -1,9 +1,5 @@
 import React from 'react';
-import { Introscreen } from './src/screen/Introscreen';
-import { Detailscreen } from './src/screen/Detailscreen';
-import { ListScreen } from './src/screen/Listscreen';
-import { CreditsScreen, creditsScreen } from './src/screen/CreditsScreen';
-import { ThemesScreen } from './src/screen/ThemesScreen';
+import { Introscreen, Detailscreen ,ListScreen,CreditsScreen,ThemesScreen} from './src/screen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
